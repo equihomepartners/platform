@@ -1,0 +1,34 @@
+{
+  "name": "@equihome/portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@equihome/api-client": "workspace:*",
+    "@equihome/ui-components": "workspace:*",
+    "@equihome/utils": "workspace:*",
+    "chart.js": "^4.4.0",
+    "d3": "^7.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@testing-library/react": "^14.0.0",
+    "@types/d3": "^7.4.1",
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.8",
+    "@vitejs/plugin-react": "^4.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.6"
+  }
+}
